@@ -1,0 +1,38 @@
+.container {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 52px 141.5px 56px 140px;
+}
+.header {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+
+}
+.header img {
+    width: 122px;
+    height: 95.04px;  
+}
+.flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+.flex li {
+    margin-left: 53px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex a {
+    font-family: 'ArchyEDT-Thin';
+    font-size: 20px;
+    color: #707070;
+}
+#search {
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
